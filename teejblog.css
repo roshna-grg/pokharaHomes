@@ -65,15 +65,14 @@ nav a:hover
 .navHeader
 {
     font-family: 'Baskerville';
-    font-size: 90px;
+    font-size: 70px;
     letter-spacing: 2px;
     color: white;
 }
 .mainBody{
     background-color: white;
-    margin-top: 190px;
+    margin-top: 220px;
     width: 100%;
-    
 }
 .subBody{
     padding: 50px 200px 0px 200px;
@@ -86,7 +85,7 @@ nav a:hover
     letter-spacing: 8px;
     color: #B7B7B7;
 }
-.teejContent
+.blogContent
 {
     font-family: 'Poppins Light', sans-serif;
     font-size: 18px;

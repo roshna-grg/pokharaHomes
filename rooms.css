@@ -65,9 +65,15 @@ nav a:hover
 .navHeader
 {
     font-family: 'Baskerville';
-    font-size: 90px;
+    font-size: 70px;
     letter-spacing: 2px;
     color: white;
+}
+.mainBody{
+    background-color: white;
+    margin-top: 220px;
+    width: 100%;
+    
 }
 .card
 {
