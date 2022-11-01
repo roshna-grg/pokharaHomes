@@ -1,0 +1,307 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav 
+{
+    overflow: hidden;
+    
+}
+.logo
+{
+    padding-left: 90px;
+    float: left;
+}
+
+nav a 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 25px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 16px;
+}
+.menu{
+    float: right;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+nav a:hover 
+{
+    color: powderblue;
+}
+
+.headerTitle
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 155px;
+}
+.navSubtitle
+{
+    display: inline;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 18px;
+}
+.navHeader
+{
+    font-family: 'Baskerville';
+    font-size: 90px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 90px;
+}
+.fixed{
+    width: 65%;
+}
+.flex-item
+{
+    width: 35%;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+.roomTd
+{
+    width: 60%;
+    color: #1A1A1A;
+    text-decoration: none;
+    font-family: 'Baskerville';
+    font-size: 50px;
+}
+.rsTd
+{
+    color: #313030;
+    text-decoration: none;
+    font-family: 'Baskerville';
+    font-size: 20px;
+    display: inline;
+}
+.priceTd
+{
+    color: #643A86;
+    text-decoration: none;
+    font-family: 'Benne';
+    font-size: 50px;
+    display: inline;
+}
+.roomDetails
+{
+    color: #555454;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin: 30px 0px 30px 0px;
+}
+.tableHead
+{
+    color: #383838;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.tableSub
+{
+    color: #787878;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.roomFacilities
+{
+    color: #3C334D;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.facilities
+{
+    color: #383838;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+.recentBlogs
+{
+    color: #3C334D;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.blogTitle
+{
+    color: #3D3449;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+}
+.blogDate
+{
+    color: #AAAAAA;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 12px;
+}
+.otherRooms
+{
+    color: #272727;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+.roomDiv
+{
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 6px 4px rgb(0 0 0 / 0.2);
+}
+.img-hover-zoom {
+  height: 500px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+  
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+.img-hover-zoom1 {
+    height: 250px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom1 img {
+    transition: transform .5s ease;
+}
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom1:hover img {
+    transform: scale(1.5);
+}
+
+.otherRoomTd
+{
+    width: 60%;
+    color: #313030;
+    text-decoration: none;
+    font-family: 'Baskerville';
+    font-size: 27px;
+}
+.otherRs
+{
+    color: #313030;
+    text-decoration: none;
+    font-family: 'Baskerville';
+    font-size: 15px;
+    display: inline;
+}
+.otherPrice
+{
+    color: #643A86;
+    text-decoration: none;
+    font-family: 'Benne';
+    font-size: 30px;
+    display: inline;
+}
+.otherRoomDetails
+{
+    color: #555454;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 6px;
+    padding-bottom: 20px;
+}
+.servicesIcons
+{
+    font-size:20px;
+    color:#999999;
+}
+.footerBg
+{
+    width: 100%;
+    background-color: #7499C5;
+    margin-top: 150px;
+    padding-bottom: 40px;
+}
+.footer
+{
+    padding: 40px 110px 0px 110px
+}
+.footerHeader
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.footerText
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    text-align: justify;
+    display: inline-block;
+}
+.footerIcon
+{
+    vertical-align: top;
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size:25px;
+    color:white;
+}
+.footerIcon1
+{
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size:25px;
+    color:white;
+}
+.footerIcon2
+{
+    font-size:30px;
+    color:white;
+    padding-bottom: 20px;
+}

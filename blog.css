@@ -1,0 +1,205 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav 
+{
+    overflow: hidden;
+    
+}
+.logo
+{
+    padding-left: 90px;
+    float: left;
+}
+
+nav a 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 25px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 16px;
+}
+.menu{
+    float: right;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+nav a:hover 
+{
+    color: powderblue;
+}
+
+.active1 
+{
+    color: darkmagenta;
+}
+.headerTitle
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 155px;
+}
+.navSubtitle
+{
+    display: inline;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 18px;
+}
+.navHeader
+{
+    font-family: 'Baskerville';
+    font-size: 90px;
+    letter-spacing: 2px;
+    color: white;
+}
+.mainBody{
+    background-color: white;
+    margin-top: 190px;
+    width: 100%;
+    
+}
+.subBody{
+    padding: 70px 90px 0px 90px;
+}
+.section1
+{
+    background-color: white;
+    filter: drop-shadow(0 0 0.35rem #AEAEAE);
+    height: 280px;
+}
+.section1 table{
+    border-collapse: collapse;
+}
+.adminTxt
+{
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 14px;
+    color: #AAAAAA;
+    padding-bottom: 15px;
+}
+.titleTxt
+{
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #3D3449;
+    
+}
+.contentTxt
+{
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 17px;
+    color: #636363;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+.readMore
+{
+    display: inline-block;
+    position: relative;
+
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 15px;
+    color: #FF0202;
+    text-decoration: none;
+}
+.readMore:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: brown;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .readMore:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+.img-hover-zoom1 {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom1 img {
+    transition: transform .5s ease;
+}
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom1:hover img {
+    transform: scale(1.5);
+}
+.footerBg
+{
+    width: 100%;
+    background-color: #7499C5;
+    margin-top: 150px;
+    padding-bottom: 40px;
+}
+.footer
+{
+    padding: 40px 110px 0px 110px
+}
+.footerHeader
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.footerText
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    text-align: justify;
+    display: inline-block;
+}
+.footerIcon
+{
+    vertical-align: top;
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size:25px;
+    color:white;
+}
+.footerIcon1
+{
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size:25px;
+    color:white;
+}
+.footerIcon2
+{
+    font-size:30px;
+    color:white;
+    padding-bottom: 20px;
+}
