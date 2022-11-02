@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://kit.fontawesome.com/a4344e9bae.js" crossorigin="anonymous"></script>
+
+        <link href='https://fonts.googleapis.com/css?family=Benne' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="amenities.css">
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="home.html"><img src="images/logo.png" width="150px" height="128px" alt="logo"></a>
+                </div>
+                <div class="menu">
+                    <a href="home.html">HOME</a>
+                    <a href="rooms.html">ROOMS</a>
+                    <a class="active1" href="amenities.html">AMENITIES</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="aboutus.html">ABOUT US</a>
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="headerTitle">
+            <p class="navSubtitle" style="color: #473163;">Home</p>
+            <p class="navSubtitle" style="color: white;">&gt; Amenities</p>
+            <p class="navHeader">AMENITIES</p>
+        </div>
+
+        <div class="mainBody">
+
+            <div class="subBody">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td width="60%">
+                            <div class="myimgDiv">
+                                <img src="images/Amenities/bar.jpg" alt="Bar"  style="width: 600px; height: 400px;">
+                            </div>
+                        </td>
+                        <td width="40%">
+                            <p> &#8212; 01</p>
+                            <p class="txtTitle">Bar/Restaurant</p><br>
+                            <p class="txtContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><br>
+                            <p class="videoLink">Watch video</p>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+                <table style="width: 100%; border-collapse: collapse; padding-top: 50px;">
+                    <tr>
+                        <td width="40%">
+                            <p> &#8212; 02</p>
+                            <p class="txtTitle">Dining Hall</p><br>
+                            <p class="txtContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><br>
+                            <p class="videoLink">Watch video</p>
+                        </td>
+                        <td width="60%">
+                            <div class="myimgDiv1">
+                                <img src="images/Amenities/dinning.jpg" alt="Bar"  style="width: 600px; height: 400px; float: right;">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td width="60%">
+                            <div class="myimgDiv2">
+                                <img src="images/Amenities/lounge.jpg" alt="Bar"  style="width: 600px; height: 400px;">
+                            </div>
+                        </td>
+                        <td width="40%">
+                            <p> &#8212; 03</p>
+                            <p class="txtTitle">Lounge</p><br>
+                            <p class="txtContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><br>
+                            <p class="videoLink">Watch video</p>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+                <table style="width: 100%; border-collapse: collapse; padding-top: 50px;">
+                    <tr>
+                        <td width="40%">
+                            <p> &#8212; 04</p>
+                            <p class="txtTitle">Meeting/Banquet</p><br>
+                            <p class="txtContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><br>
+                            <p class="videoLink">Watch video</p>
+                        </td>
+                        <td width="60%">
+                            <div class="myimgDiv3">
+                                <img src="images/Amenities/banquet.jpg" alt="Bar"  style="width: 600px; height: 400px; float: right;"">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td width="60%">
+                            <div class="myimgDiv4">
+                                <img src="images/Amenities/parking.jpg" alt="Bar"  style="width: 600px; height: 400px;">
+                            </div>
+                        </td>
+                        <td width="40%">
+                            <p> &#8212; 05</p>
+                            <p class="txtTitle">Free Parking Area</p><br>
+                            <p class="txtContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><br>
+                            <p class="videoLink">Watch video</p>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+            </div>
+        </div>
+        
+        <script>
+            $(window).scroll(function()
+            {
+
+                if ($(this).scrollTop()>200) 
+                {
+                    $('.myimgDiv').show(1000);
+                } 
+                else
+                {
+                    $('.myimgDiv').hide(1000);
+                }
+
+                if($(this).scrollTop()>700)
+                {
+                    $('.myimgDiv1').show(1000);
+                }
+                else
+                {
+                    $('.myimgDiv1').hide(1000);
+                }
+
+                if($(this).scrollTop()>1200)
+                {
+                    $('.myimgDiv2').show(1000);
+                }
+                else
+                {
+                    $('.myimgDiv2').hide(1000);
+                }
+
+                if($(this).scrollTop()>1700)
+                {
+                    $('.myimgDiv3').show(1000);
+                }
+                else
+                {
+                    $('.myimgDiv3').hide(1000);
+                }
+
+                if($(this).scrollTop()>2200)
+                {
+                    $('.myimgDiv4').show(1000);
+                }
+                else
+                {
+                    $('.myimgDiv4').hide(1000);
+                }
+            });
+        </script>
+
+    </body>
+</html>

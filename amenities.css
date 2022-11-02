@@ -1,0 +1,103 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav 
+{
+    overflow: hidden;
+    
+}
+.logo
+{
+    padding-left: 90px;
+    float: left;
+}
+
+nav a 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 25px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 16px;
+}
+.menu{
+    float: right;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+nav a:hover 
+{
+    color: powderblue;
+}
+
+.active1 
+{
+    color: darkmagenta;
+}
+.headerTitle
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 155px;
+}
+.navSubtitle
+{
+    display: inline;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 18px;
+}
+.navHeader
+{
+    font-family: 'Baskerville';
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: white;
+}
+.mainBody{
+    background-color: white;
+    margin-top: 220px;
+    width: 100%;
+}
+.subBody
+{
+    padding: 110px 130px 0px 130px;
+}
+.txtTitle
+{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: black;
+    
+}
+.txtContent
+{
+    font-family: 'Poppins Light';
+    font-size: 18px;
+    color: #5C5C5C;
+    text-align: justify;
+}
+.videoLink
+{
+    font-family: 'Poppins Light';
+    font-size: 15px;
+    color: black;
+}
+.myimgDiv, .myimgDiv1, .myimgDiv2, .myimgDiv3, .myimgDiv4{
+    display: none;
+}
