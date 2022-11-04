@@ -48,7 +48,7 @@ nav a:hover
 
 .active1 
 {
-    color: darkmagenta;
+    color: powderblue;
 }
 .headerTitle
 {
@@ -77,10 +77,10 @@ nav a:hover
 }
 .card
 {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 90%;
     border-radius: 10px;
-    box-shadow: 0 6px 4px rgb(0 0 0 / 0.2);
+    box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
     height: 180px;
     margin: 60px auto auto auto;
     position: relative;
@@ -179,11 +179,33 @@ nav a:hover
 }
 .viewDetails
 {
-    color: #6F22BC;
-    text-underline-offset: 0.5rem;
+    display: inline-block;
+    position: relative;
+
     font-family: 'Poppins Light', sans-serif;
     font-size: 16px;
+    color: #6F22BC;
+    text-decoration: none;
 }
+.viewDetails:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #5f0bb3;    
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.viewDetails:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 .flip-card
 {
     background-color: transparent;
@@ -257,6 +279,46 @@ nav a:hover
     text-align: justify;
     display: inline-block;
 }
+.hover-1
+{
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    
+    --h: 1.2em;   
+  
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+        0 calc(-1*var(--_t,0em)) white, 
+        0 calc(var(--h) - var(--_t,0em)) rgb(33, 59, 116);
+    overflow: hidden;
+    transition: .3s;
+}
+.hover-1:hover {
+  --_t: var(--h);
+}
+
+.ques {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0px -10px 0px 0px rgb(65, 121, 158);
+    transition: all .3s ease-in-out;
+}
+
+.ques:hover
+{
+    box-shadow: inset 0px -1px 0px 0px rgb(65, 121, 158);
+    transition: all .3s ease-in-out;
+}
 .footerIcon
 {
     vertical-align: top;
@@ -277,4 +339,52 @@ nav a:hover
     font-size:30px;
     color:white;
     padding-bottom: 20px;
+}
+.footerIconFx
+{
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  .footerIconFx:first-child
+  {
+    margin-left: 0;
+  }
+.footerIconFx:after
+{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 2px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+  
+.footerIconFx:hover
+{
+    background-color: #fff;
+    color: #7499C5;
+}
+  
+.footerIconFx:hover:after
+{
+    opacity: 1;
+    transform: scale(1.15);
 }
