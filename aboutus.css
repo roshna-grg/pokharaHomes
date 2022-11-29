@@ -1,0 +1,352 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body
+{
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav 
+{
+    overflow: hidden;
+    
+}
+.logo
+{
+    padding-left: 90px;
+    float: left;
+}
+
+nav a 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 25px;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 16px;
+}
+.menu{
+    float: right;
+    padding-top: 40px;
+    padding-right: 40px;
+
+}
+
+.active1 
+{
+    color: powderblue;
+}
+.headerTitle
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 155px;
+}
+.navSubtitle
+{
+    display: inline;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 18px;
+}
+.navHeader
+{
+    font-family: 'Baskerville';
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: white;
+}
+.mainBody{
+    background-color: white;
+    margin-top: 220px;
+    width: 100%;
+}
+.subBody
+{
+    padding: 110px 130px 0px 130px;
+}
+.txtTitle
+{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: black;
+    
+}
+.txtContent
+{
+    font-family: 'Poppins Light';
+    font-size: 18px;
+    color: #5C5C5C;
+    text-align: justify;
+    padding-top: 30px;
+}
+.videoLink
+{
+    font-family: 'Poppins Light';
+    font-size: 15px;
+    color: black;
+    
+}
+.myimgDiv, .myimgDiv1{
+    display: none;
+}
+.videoClass{
+    float: right;
+    height: 600px;
+    width: 600px;
+}
+.videoClass video{
+    width: 100%;
+    height: 100%;
+}
+.tableNo{
+    font-family: 'Buenard';
+    font-size: 70px;
+    color: #6D497D;
+}
+.tableTitle{
+    
+    font-family: 'Buenard';
+    font-size: 20px;
+    color: #8B8989;
+    padding: 10px 0 30px 0;
+}
+.bodyTable
+{
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.staffInfo {
+    width: 400px;
+    height: 90vw;
+    transform: rotate(-90deg) translateY(-300px);
+    transform-origin: top right;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 130px;
+}
+
+.staffDetails {
+    position: relative;
+    width: 400px;
+    height: 420px;
+    transform: rotate(90deg);
+    
+}
+.staffDetails img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.staffClass
+{
+    width: 100%;
+    height: 100%;
+    top:50%;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.classOpacity
+{
+    opacity: 0;
+}
+.staffTitle
+{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: black;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.staffName {
+    font-family: 'Buenard';
+    font-size: 30px;
+    color: black;
+    padding-top: 70%;
+    padding-left: 10%;
+}
+.staffPosition
+{
+    font-family: 'Poppins Light';
+    font-size: 20px;
+    color: white;
+    padding-left: 10%;
+}
+.classOpacity:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 100%;
+}
+
+.footerBg
+{
+    width: 100%;
+    background-color: #7499C5;
+    margin-top: 150px;
+    padding-bottom: 40px;
+}
+.footer
+{
+    padding: 40px 110px 0px 110px
+}
+.footerText
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    text-align: justify;
+    display: inline-block;
+}
+
+.hover-1
+{
+    text-decoration: none;
+    font-family: 'Poppins Light', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    
+    --h: 1.2em;   
+  
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+        0 calc(-1*var(--_t,0em)) white, 
+        0 calc(var(--h) - var(--_t,0em)) rgb(33, 59, 116);
+    overflow: hidden;
+    transition: .3s;
+}
+.hover-1:hover {
+  --_t: var(--h);
+}
+
+.ques {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0px -10px 0px 0px rgb(65, 121, 158);
+    transition: all .3s ease-in-out;
+}
+
+.ques:hover
+{
+    box-shadow: inset 0px -1px 0px 0px rgb(65, 121, 158);
+    transition: all .3s ease-in-out;
+}
+.amenitiesIcons
+{
+    font-size: 50px;
+    color: #A095C8;
+}
+
+.allsides {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    cursor:pointer;
+    color:#d6cef5;
+    background:
+      linear-gradient(currentColor 0 0) 0 100%,
+      linear-gradient(currentColor 0 0) 0 100%,
+      linear-gradient(currentColor 0 0) 100% 0,
+      linear-gradient(currentColor 0 0) 100% 0;
+    background-size: 20px 2px, 2px 20px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.allsides:hover {
+    background-position: 100% 100%, 0 0, 0 0, 100% 100%;
+    color:#6a5f91;
+}
+
+.footerIcon
+{
+    vertical-align: top;
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size:25px;
+    color:white;
+}
+.footerIcon1
+{
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size:25px;
+    color:white;
+}
+
+.footerIconFx
+{
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  .footerIconFx:first-child
+  {
+    margin-left: 0;
+  }
+.footerIconFx:after
+{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 2px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+  
+.footerIconFx:hover
+{
+    background-color: #fff;
+    color: #7499C5;
+}
+  
+.footerIconFx:hover:after
+{
+    opacity: 1;
+    transform: scale(1.15);
+}
+  

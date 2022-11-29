@@ -1,61 +1,52 @@
-
-
-.ques1 {
-     text-decoration: none;
-     box-shadow: inset 0px -10px 0px 0px yellow;
-     transition: all .3s ease-in-out;
+body {
+  height: 100vh;
+  background: #010101;
+  cursor: none;
+  margin: 0;
+  display: flex;
+  font-family: monospace;
 }
-  .ques1:hover{
-    box-shadow: inset 0px -1px 0px 0px yellow;
-
-    transition: all .3s ease-in-out;
-  }
-   /* .ques1::before {
-    content: '';
-    background-color: rgba(9, 60, 78, 0.75);
-    position: absolute;
-    /* left: 0; 
-    bottom: 3px;
-    width: 100%;
-    height: 8px;
-    z-index: -1;
-    transition: all .3s ease-in-out;
+  h1, p , a {
+    color: #fff;
   }
   
-  .ques1:hover::before {
-    bottom: 0;
+  a {
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    margin-top: 25px;
+  }
+  
+  .cursor {
+    pointer-events: none;
+  }
+    cursor__ball {
+      position: fixed;
+      top: 0;
+      left: 0;
+      mix-blend-mode: difference;
+      z-index: 1000;
+    }
+      circle {
+        fill: #f7f8fa;
+      }
+  
+  .left, .right {
     height: 100%;
-  }
-   Presentational Styles */
-  .ques {
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: blueviolet;
-    /* line-height: 1.5; */
-    /* height: 100vh; */
-    /* place-items: center; */
-  }
-
-
-  .footerBg
-{
-    position: absolute;
     width: 100%;
-    background-color: #7499C5;
-    margin-top: 150px;
-    padding-bottom: 40px;
-}
-.footer
-{
-    padding: 40px 110px 0px 110px
-}
-.footerText
-{
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins Light', sans-serif;
-    text-align: justify;
-    display: inline-block;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right {
+    background: #fff;
+  }
+    .right a {
+      border-bottom: 2px solid #000;
+    }
+    
+    .right h1, p, a {
+      color: #000;
+    }
+  
