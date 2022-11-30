@@ -92,7 +92,7 @@ nav a:hover
     letter-spacing: 2px;
     color: #535353;
     text-align: justify;
-    padding-top: 25px;
+    padding: 40px 0;
 }
 .imagesRow{
     padding-top: 15px;
@@ -220,7 +220,7 @@ img.hover-shadow
 {
     width: 100%;
     background-color: #7499C5;
-    margin-top: 150px;
+    margin-top: 200px;
     padding-bottom: 40px;
 }
 .footer
